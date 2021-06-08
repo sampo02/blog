@@ -1,18 +1,33 @@
 import * as React from "react"
+import {graphql, Link} from "gatsby"
 
 const pageStyles = {
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 
-const IndexPage = () => {
+export default function Index({ data }) {
   return (
     <main style={pageStyles}>
       <title>sampo02's blog</title>
-      <body>
         <h1>sampo02's blog</h1>
-      </body>
+        {data.allMarkdownRemark.nodes.map(node => (
+          <div key={node.frontmatter.slug}>
+            <Link to={node.frontmatter.slug}>{node.frontmatter.title}</Link>
+          </div>
+        ))}
     </main>
   )
 }
 
-export default IndexPage
+export const query = graphql`
+{
+  allMarkdownRemark {
+    nodes {
+      frontmatter {
+        slug
+        title
+      }
+    }
+  }
+}
+`

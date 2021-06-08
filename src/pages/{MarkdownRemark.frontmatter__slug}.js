@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-export default function Template({ data, }) {
+export default function Template({ data }) {
     const { markdownRemark } = data
     const { frontmatter, html } = markdownRemark
     return (
@@ -18,7 +18,7 @@ export default function Template({ data, }) {
     )
 }
 
-export const pageQuery = graphql`
+export const query = graphql`
   query($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
