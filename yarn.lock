@@ -4981,10 +4981,10 @@ gatsby-transformer-remark@^4.3.0:
     unist-util-select "^3.0.4"
     unist-util-visit "^2.0.3"
 
-gatsby@^3.4.1:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.6.1.tgz#770201d53ce80cde3ca84400420a16a53b4214be"
-  integrity sha512-xNR6IMzl+6ejuMy2yGukyYmsasOXnmmb90U/v1/rwXpovo7nOHJUwGPDTblLTYsHiq2Bpv5RJcGS6P/yhfKqOw==
+gatsby@^3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.6.2.tgz#73e2e0e185974c39bf2fe1ccf269fdd977b0094a"
+  integrity sha512-gzwnyk37sGTrT/oqAWKbfwJCPeLWOlX5wgq2pumCJDOGBo0yjL95pRiBeH1GG3jQGadcx2lG/6MoM46M6v3w9A==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/core" "^7.12.3"
@@ -9411,8 +9411,8 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sanitize-html@^2.3.2:
-  version "2.3.2"
+sanitize-html@^1.27.5:
+  version "1.27.5"
   resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-1.27.5.tgz#6c8149462adb23e360e1bb71cc0bae7f08c823c7"
   integrity sha512-M4M5iXDAUEcZKLXkmk90zSYWEtk5NH3JmojQxKxV371fnMh+x9t1rqdmXaGoyEHw3z/X/8vnFhKjGL5xFGOJ3A==
   dependencies:
@@ -10369,8 +10369,8 @@ trim-trailing-lines@^1.0.0:
   resolved "https://registry.yarnpkg.com/trim-trailing-lines/-/trim-trailing-lines-1.1.4.tgz#bd4abbec7cc880462f10b2c8b5ce1d8d1ec7c2c0"
   integrity sha512-rjUWSqnfTNrjbB9NQWfPMH/xRK1deHeGsHoVfpxJ++XeYXE0d6B1En37AHfw3jtfTU7dzMzZL2jjpe8Qb5gLIQ==
 
-trim@0.0.3:
-  version "0.0.3"
+trim@0.0.1:
+  version "0.0.1"
   resolved "https://registry.yarnpkg.com/trim/-/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
   integrity sha1-WFhUf2spB1fulczMZm+1AITEYN0=
 
@@ -11209,12 +11209,7 @@ xss@^1.0.6:
     commander "^2.20.3"
     cssfilter "0.0.10"
 
-xstate@^4.11.0, xstate@^4.9.1:
-  version "4.19.2"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.19.2.tgz#58ef6fc71737c76750ec61c5ff8b000101895d8a"
-  integrity sha512-eWI6kOHavcqhu1ACCmRowYGaQnH0KGvBoGg3lqmle9ZYyVWa2ZcVTgZlsK7o419/jw9gWX2LYmYGkm9w/VoXMA==
-
-xstate@^4.14.0:
+xstate@^4.11.0, xstate@^4.14.0, xstate@^4.9.1:
   version "4.20.0"
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.20.0.tgz#6f241f2b49c840cb6e05b32544a6048362f558e2"
   integrity sha512-u5Ou1CMo/oWApasmv1TYTHgj38k69DJdTqQdBBwt+/ooNhPJQiSIKTB3Y3HvX0h5tulwfSo6xAwZgBgjRsK3LA==
