@@ -1,13 +1,9 @@
 import * as React from "react"
 import {graphql, Link} from "gatsby"
 
-const pageStyles = {
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-
 export default function Index({ data }) {
   return (
-    <main style={pageStyles}>
+    <main>
       <title>sampo02's blog</title>
         <h1>sampo02's blog</h1>
         {data.allMarkdownRemark.nodes.map(node => (

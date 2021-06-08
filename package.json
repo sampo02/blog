@@ -14,7 +14,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@deckdeckgo/highlight-code": "^3.3.0",
     "gatsby": "^3.6.2",
+    "gatsby-remark-highlight-code": "^3.0.0",
     "gatsby-source-filesystem": "^3.6.0",
     "gatsby-transformer-remark": "^4.3.0",
     "react": "^17.0.1",

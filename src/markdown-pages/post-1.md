@@ -1,5 +1,13 @@
 ---
-slug: "/blog/my-first-post"
+slug: "/articles/my-first-post"
 date: "2021-06-06"
-title: "My first blog post"
+title: "最初の投稿"
 ---
+
+# aaaa
+
+```javascript
+const a = 1
+```
+
+`yarn`
