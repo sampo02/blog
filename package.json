@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@deckdeckgo/highlight-code": "^3.3.0",
-    "gatsby": "^3.7.0",
+    "gatsby": "^3.7.1",
     "gatsby-remark-highlight-code": "^3.0.0",
     "gatsby-source-filesystem": "^3.7.0",
     "gatsby-transformer-remark": "^4.4.1",
