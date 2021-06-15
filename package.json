@@ -1,8 +1,8 @@
 {
-  "name": "sampo02-web-log",
+  "name": "sampo02-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "sampo02-web-log",
+  "description": "sampo02-bog",
   "keywords": [
     "gatsby"
   ],
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@types/node": "^15.12.2",
     "@types/react": "^17.0.11",
-    "@types/react-dom": "^17.0.7"
+    "@types/react-dom": "^17.0.7",
+    "gatsby-plugin-ts-config": "^1.1.5"
   }
 }
