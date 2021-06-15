@@ -2,7 +2,7 @@ pull_request_rules:
   - name: Automatic merge when dependencies label
     conditions:
       - label=dependencies
-      - check-success=Gatsby Build Service - blog 
+      - check-success=Gatsby Build Service - blog
     actions:
       merge:
         method: squash
