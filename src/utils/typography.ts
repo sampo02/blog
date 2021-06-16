@@ -8,6 +8,9 @@ funstonTheme.googleFonts = [
   }
 ]
 
+funstonTheme.headerFontFamily = ['Noto Sans JP']
+funstonTheme.bodyFontFamily = ['Noto Sans JP']
+
 const typography = new Typography(funstonTheme)
 
 export default typography
