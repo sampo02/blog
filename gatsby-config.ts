@@ -5,6 +5,7 @@ module.exports = {
     title: "sampo02's blog"
   },
   plugins: [
+    'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     {
       resolve: 'gatsby-transformer-remark',
