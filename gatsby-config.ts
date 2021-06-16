@@ -12,10 +12,13 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-highlight-code',
+            resolve: 'gatsby-remark-prismjs',
             options: {
-              terminal: 'carbon',
-              theme: 'blackboard'
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false
             }
           }
         ]
