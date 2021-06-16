@@ -4,8 +4,8 @@ import { graphql, Link } from 'gatsby'
 export default function Index ({ data }) {
   return (
     <main>
-      <title>sampo02 blog</title>
-      <h1>sampo02 blog</h1>
+      <title>sampo02&apos;s blog</title>
+      <h1>sampo02&apos;s blog</h1>
       {data.allMarkdownRemark.nodes.map((node) => (
         <div key={node.frontmatter.slug}>
           <Link to={node.frontmatter.slug}>{node.frontmatter.title}</Link>
