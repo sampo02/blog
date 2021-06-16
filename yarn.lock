@@ -5398,7 +5398,7 @@ gatsby-transformer-remark@^4.4.1:
     unist-util-select "^3.0.4"
     unist-util-visit "^2.0.3"
 
-gatsby@^3.7.1:
+gatsby@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.7.2.tgz#e45174d86c4eb6cb1bf9bc89722f550352ad9aef"
   integrity sha512-grweoXdoE/Y6f1/qj3wDJ5JVQvfEwz/EPqPF9IXE3fbHdItr6hFCfYW9TmQopSHMuCxzvNhoCgwtyUL6sobBgw==
