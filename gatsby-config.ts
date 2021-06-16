@@ -8,20 +8,6 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-highlight-code',
-            options: {
-              terminal: 'carbon',
-              theme: 'blackboard'
-            }
-          }
-        ]
-      }
-    },
-    {
       resolve: 'gatsby-plugin-typescript',
       options: {
         isTSX: true,
