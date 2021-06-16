@@ -1,0 +1,9 @@
+div {
+  margin: 40px auto;
+  max-width: 500px;
+
+  @media (max-width: 480px) {
+    margin: 20px auto;
+    max-width: calc(100% - 20px);
+  }
+}
