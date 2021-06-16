@@ -2,6 +2,8 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
+require('prismjs/themes/prism-tomorrow.css')
+
 export default function Template ({ data }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
@@ -10,7 +12,6 @@ export default function Template ({ data }) {
       <div>
         <div>
           <h1>{frontmatter.title}</h1>
-          <h2>{frontmatter.date}</h2>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </div>

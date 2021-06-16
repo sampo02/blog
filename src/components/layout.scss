@@ -1,9 +1,8 @@
 div {
-  margin: 40px auto;
-  max-width: 500px;
+  margin: 2rem auto;
+  max-width: 800px;
 
-  @media (max-width: 480px) {
-    margin: 20px auto;
-    max-width: calc(100% - 8px);
+  @media (max-width: 840px) {
+    max-width: calc(100vw - 2rem);
   }
 }
