@@ -5,12 +5,12 @@ import Layout from '../components/layout'
 
 require('prismjs/themes/prism-tomorrow.css')
 
-export default function Template ({ data }) {
+export default function Template({ data }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
     <>
-      <Head />
+      <Head title={frontmatter.title} description={frontmatter.description} />
       <Layout>
         <div>
           <div>
@@ -31,6 +31,7 @@ export const query = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        description
       }
     }
   }

@@ -3,10 +3,10 @@ import { graphql, Link } from 'gatsby'
 import Head from '../components/head'
 import Layout from '../components/layout'
 
-export default function Index ({ data }) {
+export default function Index({ data }) {
   return (
     <>
-      <Head />
+      <Head title="sampo02's blog" description="sampo02's blog" />
       <Layout>
         <main>
           <title>sampo02&apos;s blog</title>

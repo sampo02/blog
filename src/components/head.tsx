@@ -1,8 +1,17 @@
 import * as React from 'react'
 import Helmet from 'react-helmet'
 
-export default function Head () {
+interface Props {
+  title: string
+  description: string
+}
+
+export default function Head({ title, description }: Props) {
   return (
-    <Helmet htmlAttributes={{ lang: 'ja' }} />
+    <Helmet>
+      <html lang="ja" />
+      <title>{title}</title>
+      <meta name="description" content={description} />
+    </Helmet>
   )
 }
