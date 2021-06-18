@@ -12,7 +12,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "yarn run prettier --write . && yarn run eslint '**/*.{ts,tsx}' --quiet --fix"
+    "lint:fix": "yarn run prettier --write . && yarn run eslint '**/*.{ts,tsx}' --quiet --fix"
   },
   "dependencies": {
     "gatsby": "^3.7.1",
