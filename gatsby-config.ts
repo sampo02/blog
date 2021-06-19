@@ -10,28 +10,34 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: 'gatsby-plugin-prettier-eslint',
       options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-prismjs',
-            options: {
-              classPrefix: 'language-',
-              inlineCodeMarker: null,
-              aliases: {},
-              showLineNumbers: false,
-              noInlineHighlight: false
-            }
-          }
-        ]
+        prettier: {
+          patterns: [
+            '**/*.{css,scss,less}',
+            '**/*.{graphql}',
+            '**/*.{html}',
+            '**/*.{json,json5}',
+            '**/*.{md,mdx}',
+            '**/*.{yaml,yml}'
+          ]
+        },
+        eslint: {
+          customOptions: {
+            fix: true,
+            cache: true
+          },
+          ignorePatterns: ['graphql-types.ts'],
+          patterns: '**/*.{js,jsx,ts,tsx}'
+        }
       }
     },
     {
       resolve: 'gatsby-plugin-typescript',
       options: {
+        allExtensions: true,
         isTSX: true,
-        jsxPragma: 'jsx',
-        allExtensions: true
+        jsxPragma: 'jsx'
       }
     },
     {
@@ -42,25 +48,20 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-prettier-eslint',
+      resolve: 'gatsby-transformer-remark',
       options: {
-        prettier: {
-          patterns: [
-            '**/*.{css,scss,less}',
-            '**/*.{json,json5}',
-            '**/*.{graphql}',
-            '**/*.{md,mdx}',
-            '**/*.{html}',
-            '**/*.{yaml,yml}'
-          ]
-        },
-        eslint: {
-          patterns: '**/*.{js,jsx,ts,tsx}',
-          customOptions: {
-            fix: true,
-            cache: true
+        plugins: [
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              aliases: {},
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              noInlineHighlight: false,
+              showLineNumbers: false
+            }
           }
-        }
+        ]
       }
     }
   ]
