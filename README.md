@@ -1,4 +1,5 @@
 [![CodeQL](https://github.com/sampo02/blog/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/sampo02/blog/actions/workflows/codeql-analysis.yml)
+[![Lint](https://github.com/sampo02/blog/actions/workflows/lint.yml/badge.svg)](https://github.com/sampo02/blog/actions/workflows/lint.yml)
 
 ```bash
 docker build -t gatsby .
