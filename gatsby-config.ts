@@ -5,6 +5,7 @@ module.exports = {
     title: "sampo02's blog"
   },
   plugins: [
+    'gatsby-plugin-graphql-codegen',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
