@@ -1,2 +1,4 @@
 .cache/
+gatsby-config.ts
+graphql-types.ts
 public/
