@@ -1,21 +1,27 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
+import { Query } from '../../graphql-types'
 import Head from '../components/head'
 import Layout from '../components/layout'
 
 require('prismjs/themes/prism-tomorrow.css')
 
-export default function Template({ data }) {
+interface Props {
+  data: Query
+}
+
+export default function Template({ data }: Props) {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const frontmatter = markdownRemark?.frontmatter
+  const html = markdownRemark?.html
   return (
     <>
-      <Head title={frontmatter.title} description={frontmatter.description} />
+      <Head title={frontmatter?.title || ''} description={frontmatter?.description || ''} />
       <Layout>
         <div>
           <div>
-            <h1>{frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: html }} />
+            <h1>{frontmatter?.title}</h1>
+            <div dangerouslySetInnerHTML={{ __html: html || '' }} />
           </div>
         </div>
       </Layout>

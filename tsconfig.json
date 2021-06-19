@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "strict": true,
+    "target": "ES2017",
+    "typeRoots": ["src/types/"],
+    "types": ["node"]
+  }
+}
