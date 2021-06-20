@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import { Query } from '../../graphql-types'
+import { Query } from '../generated/graphql'
 import Head from '../components/head'
 import Layout from '../components/layout'
 
