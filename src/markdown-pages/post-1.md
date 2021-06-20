@@ -1,5 +1,5 @@
 ---
-slug: '/articles/my-first-post'
+slug: '/posts/my-first-post'
 date: '2021-06-06'
 title: '最初の投稿'
 description: '最初の投稿の詳細'
