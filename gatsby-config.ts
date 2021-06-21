@@ -17,7 +17,6 @@ module.exports = {
             '**/*.{graphql}',
             '**/*.{html}',
             '**/*.{json,json5}',
-            '**/*.{md,mdx}',
             '**/*.{yaml,yml}'
           ]
         },
