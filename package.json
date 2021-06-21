@@ -12,8 +12,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint:check": "yarn run prettier -c . && yarn run eslint --max-warnings 0 .",
-    "lint:fix": "yarn run prettier --write . && yarn run eslint '**/*.{ts,tsx}' --quiet --fix",
+    "lint:check": "yarn run prettier -c . && yarn run eslint --max-warnings 0 . && yarn run textlint src/markdown-pages/",
+    "lint:fix": "yarn run prettier --write . && yarn run eslint '**/*.{ts,tsx}' --quiet --fix && yarn run textlint --fix src/markdown-pages/",
     "codegen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
