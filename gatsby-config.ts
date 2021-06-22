@@ -2,11 +2,14 @@ import * as path from 'path'
 
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://sampo02.gatsbyjs.io',
     title: "sampo02's blog"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-robots-txt',
     'gatsby-plugin-sass',
+    'gatsby-plugin-sitemap',
     'gatsby-transformer-remark',
     {
       resolve: 'gatsby-plugin-prettier-eslint',
