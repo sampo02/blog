@@ -1,6 +1,6 @@
 ---
 date: '2021-06-21'
-description: '人生で 3 回目のブログを始めた'
+description: '人生でおそらく 3 回目の個人ブログを始めてみた。 '
 slug: '/posts/2021/06/21/start-my-new-blog'
 title: '人生で何回目かのブログを始めた'
 ---
