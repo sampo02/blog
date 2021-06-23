@@ -2,7 +2,7 @@ import * as path from 'path'
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://sampo02.gatsbyjs.io',
+    siteUrl: 'https://sampo02.gtsb.io',
     title: "sampo02's blog"
   },
   plugins: [
