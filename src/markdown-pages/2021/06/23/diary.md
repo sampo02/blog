@@ -1,5 +1,4 @@
 ---
-date: '2021-06-23'
 description: '今日の日記'
 slug: '/posts/2021/06/23/diary'
 title: '日記'

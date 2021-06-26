@@ -1,6 +1,5 @@
 ---
-date: '2021-06-22'
-description: '2020 年の秋、目を覚ますとフリーランスになっていた。'
+description: '2020 年の秋、目を覚ますとフリーランスになっていた'
 slug: '/posts/2021/06/22/became-a-freelancer'
 title: 'フリーランスになっていた'
 ---
