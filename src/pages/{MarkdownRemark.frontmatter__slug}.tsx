@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import { Query } from '../generated/graphql'
+import Date from '../components/date'
 import Head from '../components/head'
 import Layout from '../components/layout'
 
@@ -21,6 +22,10 @@ export default function Template({ data }: Props) {
         <div>
           <div>
             <h1>{frontmatter?.title}</h1>
+            <p>
+              <span>Created: </span>
+              <Date slug={frontmatter!.slug!} />
+            </p>
             <div dangerouslySetInnerHTML={{ __html: html || '' }} />
           </div>
         </div>
@@ -34,10 +39,9 @@ export const query = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        description
         slug
         title
-        description
       }
     }
   }
