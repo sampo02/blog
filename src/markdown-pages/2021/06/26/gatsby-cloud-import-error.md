@@ -15,3 +15,7 @@ If you're trying to use a local file make sure that the path is correct.
 理由は単純で `components/date.tsx` では小文字で定義しており、  
 利用箇所の `import Date from '../components/Date'` で大文字としていたためだった。  
 ローカルで `gatsby develop` していても問題なく動作していたので気付くのに時間がかかった。
+
+2021-06-27 追記  
+そもそも PascalCase にしたら上記の問題は起こらないので  
+components 配下は PascalCase とすることにした。
