@@ -1,5 +1,5 @@
-import * as React from 'react'
-import './layout.scss'
+import React from 'react'
+import './Layout.scss'
 
 interface Props {
   children: React.ReactNode

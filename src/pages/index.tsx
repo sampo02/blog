@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { graphql, Link } from 'gatsby'
-import { Query } from '../generated/graphql'
-import Date from '../components/date'
-import Head from '../components/head'
-import Layout from '../components/layout'
+import { Query } from '../generated/Graphql'
+import Date from '../components/Date'
+import Head from '../components/Head'
+import Layout from '../components/Layout'
 
 interface Props {
   data: Query
