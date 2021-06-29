@@ -14,6 +14,7 @@ export default function Head({ title, description }: Props) {
       <link rel="icon" href={favicon} />
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="google-site-verification" content="VQMLbPfrjylk7vnFcPVsFwH4zNeWDyhfuDt_xnbxOOo" />
     </Helmet>
   )
 }
