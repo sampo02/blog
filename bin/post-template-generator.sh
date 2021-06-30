@@ -13,3 +13,5 @@ slug: '${SLUG}'
 title: ''
 ---
 EOF
+
+git switch -c "docs/`date '+%Y-%m-%d'`-${TITLE}"
