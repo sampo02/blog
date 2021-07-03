@@ -14,4 +14,8 @@ title: ''
 ---
 EOF
 
-git switch -c "docs/`date '+%Y-%m-%d'`-${TITLE}"
+declare -r BRANCH_NAME="docs/`date '+%Y-%m-%d'`-${TITLE}"
+
+git switch -c ${BRANCH_NAME}
+git add -A
+git commit -m "✨ Post ${BRANCH_NAME}"
