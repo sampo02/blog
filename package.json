@@ -52,5 +52,13 @@
     "textlint": "^12.0.0",
     "textlint-rule-preset-japanese": "^7.0.0",
     "typescript": "^4.3.5"
+  },
+  "resolutions": {
+    "browserslist": "^4.16.5",
+    "glob-parent": "^5.1.2",
+    "postcss": "^8.2.10",
+    "sanitize-html": "^2.3.2",
+    "trim": "^0.0.3",
+    "ws": "^7.4.6"
   }
 }
