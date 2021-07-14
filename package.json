@@ -47,6 +47,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.24.0",
     "gatsby-plugin-prettier-eslint": "^1.0.6",
+    "gatsby-plugin-remove-trailing-slashes": "^3.9.0",
     "gatsby-plugin-ts-config": "^1.1.5",
     "prettier": "^2.3.2",
     "textlint": "^12.0.0",
